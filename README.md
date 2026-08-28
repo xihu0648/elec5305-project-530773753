@@ -103,72 +103,8 @@ The models will be evaluated using:
 
 The robustness of the models will also be evaluated under additional noise at 20 dB, 10 dB, and 0 dB SNR.
 
-## Repository Structure
 
-```text
-.
-├── README.md
-├── requirements.txt
-├── data/
-├── notebooks/
-├── src/
-│   ├── preprocess.py
-│   ├── extract_features.py
-│   ├── train_mfcc_mlp.py
-│   ├── train_mel_cnn.py
-│   └── evaluate.py
-├── results/
-│   └── figures/
-└── docs/
-```
 
-## Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.sydney.edu.au/YOUR_USERNAME/elec5305-environmental-sound-classification.git
-cd elec5305-environmental-sound-classification
-```
-
-Create and activate a Python virtual environment:
-
-```bash
-python -m venv venv
-```
-
-On Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-On macOS or Linux:
-
-```bash
-source venv/bin/activate
-```
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-The implementation is currently under development.
-
-Planned commands:
-
-```bash
-python src/preprocess.py
-python src/train_mfcc_mlp.py
-python src/train_mel_cnn.py
-python src/evaluate.py
-```
-
-Detailed instructions will be added after the implementation is completed.
 
 ## Expected Results
 
@@ -205,10 +141,10 @@ The project is expected to show that:
 
 ## Author
 
-**Name:** [Your full name]
-**Student ID:** [Your SID]
+**Name:** Xiao Hu
+**Student ID:** 530773753
 **Course:** ELEC5305
-**GitHub username:** [Your GitHub username]
+**GitHub username:** xihu0648
 
 ## Project Status
 
