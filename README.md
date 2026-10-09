@@ -188,7 +188,6 @@ These commands reflect the script interfaces in this repository; they have not b
 * `results/mlp/` and `results/cnn/`: model evaluation artifacts.
 * `results/confusion_analysis/`: confusion analysis outputs.
 * `results/audio_cases/`: drilling, jackhammer, engine-idling and air-conditioner analyses.
-* [Feedback TWO PDF](ELEC5305_Feedback_TWO_Xiao_Hu.pdf) and [editable DOCX](ELEC5305_Feedback_TWO_Xiao_Hu.docx): the report with original visual evidence.
 
 The dataset, virtual environment and generated feature caches are excluded from version control. Individual sound examples are illustrative rather than representative of entire classes. In particular, the air-conditioner example contains approximately 2.05 seconds of active audio padded to four seconds; its modulation plot includes padding and finite-window effects.
 
