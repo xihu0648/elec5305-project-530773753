@@ -1,0 +1,8 @@
+{
+    "representation": "logmel",
+    "test_fold": 10,
+    "accuracy": 0.7025089605734767,
+    "macro_f1": 0.6999470286627608,
+    "epochs": 30,
+    "synthetic_test": false
+}

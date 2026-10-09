@@ -1,0 +1,23 @@
+[
+    {
+        "model": "mlp",
+        "accuracy_mean": 0.6023299208328873,
+        "accuracy_std": 0.052844392294001674,
+        "macro_f1_mean": 0.6064826098853974,
+        "macro_f1_std": 0.04993091278952428
+    },
+    {
+        "model": "mfcc_cnn",
+        "accuracy_mean": 0.6300366144006662,
+        "accuracy_std": 0.07400468886404894,
+        "macro_f1_mean": 0.6358008216437732,
+        "macro_f1_std": 0.06619160346168546
+    },
+    {
+        "model": "logmel_cnn",
+        "accuracy_mean": 0.6421632534861046,
+        "accuracy_std": 0.06485022998783432,
+        "macro_f1_mean": 0.652673015972482,
+        "macro_f1_std": 0.05832874272556441
+    }
+]

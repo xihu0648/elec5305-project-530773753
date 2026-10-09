@@ -1,0 +1,48 @@
+
+{
+  "project": {
+    "title": "Environmental Sound Classification Using MFCC, Mel Spectrograms, and CNNs",
+    "dataset": "UrbanSound8K",
+    "num_classes": 10,
+    "random_seed": 42
+  },
+  "audio": {
+    "sample_rate": 22050,
+    "duration_seconds": 4.0,
+    "mono": true,
+    "peak_normalization": false,
+    "n_fft": 1024,
+    "hop_length": 512,
+    "window": "hann",
+    "n_mfcc": 40,
+    "n_mels": 128
+  },
+  "training": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "max_epochs": 50,
+    "early_stopping_patience": 8,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "validation_strategy": "next_official_fold",
+    "normalization": "training_fold_only"
+  },
+  "evaluation": {
+    "official_folds": 10,
+    "test_folds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "metrics": [
+      "accuracy",
+      "macro_f1",
+      "per_class_recall",
+      "confusion_matrix",
+      "model_parameters",
+      "inference_time"
+    ]
+  },
+  "models": {
+    "model_a": "Aggregated MFCC + MLP",
+    "model_b": "Time-resolved MFCC + CNN",
+    "model_c": "Log-Mel Spectrogram + CNN"
+  }
+}
+

@@ -1,0 +1,8 @@
+{
+    "representation": "mfcc",
+    "test_fold": 9,
+    "accuracy": 0.7107843137254902,
+    "macro_f1": 0.7133283994709251,
+    "epochs": 26,
+    "synthetic_test": false
+}

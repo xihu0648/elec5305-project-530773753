@@ -1,0 +1,7 @@
+{
+    "test_fold": 3,
+    "accuracy": 0.5286486486486487,
+    "macro_f1": 0.5566892212022512,
+    "epochs_completed": 10,
+    "synthetic_test": false
+}
